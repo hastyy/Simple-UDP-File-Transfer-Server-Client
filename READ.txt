@@ -1,0 +1,13 @@
+COMPILE: javac *.java
+
+USAGE:
+
+1. run server first: java FileServer
+2. create a file to be copied if you don't have one: java FileCreate filename file-size
+3. run the client to transfer the file: java FileClient server-address port filename [seconds]
+
+-> while localhost testing place the server and the client into different folders so you can see the file being actually copied.
+
+-> specify the seconds parameter in the client arguments in order to simulate work.
+
+-> run both server and client into separate terminals.
